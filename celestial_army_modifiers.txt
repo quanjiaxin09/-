@@ -1,0 +1,54 @@
+celestial_balanced_army = {
+    # ====== 核心战斗力 ====== #
+    discipline = 0.20               # 训练度 +20% 
+    land_morale = 0.5               # 陆军士气 +50% 
+    recover_army_morale_speed = 0.5 # 士气回复速度 +50% 
+
+    # ====== 兵种战斗力 ====== #
+    infantry_power = 0.5   # 步兵战斗力 +50% 
+    cavalry_power = 0.5    # 骑兵战斗力 +50% 
+    artillery_power = 0.5  # 炮兵战斗力 +50%
+	infantry_fire = 1步兵火力
+    infantry_shock = 1 步兵冲击
+    cavalry_fire = 1 骑兵火力
+    artillery_fire = 1炮兵火力
+    artillery_shock = 1炮兵冲击
+
+    # ====== 战斗阶段强化 ====== #
+    fire_damage = 0.2              # 火力阶段伤害 +20% 
+    shock_damage = 0.2              # 冲击阶段伤害 +20% 
+    fire_damage_received = -0.2     # 受到火力伤害 -20% 
+    shock_damage_received = -0.2    # 受到冲击伤害 -20% 
+
+    # ====== 将领能力 ====== #
+    leader_land_fire = 1            # 陆军火力将领 +1 
+    leader_land_shock = 1           # 陆军冲击将领 +1 
+    leader_land_manuever = 1        # 陆军机动将领 +1 
+    leader_siege = 1                # 围城能力 +1 
+
+    # ====== 人力资源 ====== #
+    global_manpower_modifier = 1.0  # 全国人力上限 +100% 
+    manpower_recovery_speed = 1.0   # 人力恢复速度 +100% 
+
+    # ====== 经济与后勤 ====== #
+    land_maintenance_modifier = -0.30 # 陆军维护费 -30% 
+    global_regiment_recruit_speed = -0.99 # 招募时间 -99%（接近瞬时）
+    war_exhaustion = -0.03          # 每月厌战 -0.03 
+
+    # ====== 特殊机制 ====== #
+    mountain_combat = 0.5     # 山地作战能力 +50% 
+    movement_speed = 0.2   # 移动速度 +20%
+    global_attacker_dice_roll_bonus = 1 进攻方骰子点数加成	
+	global_defender_dice_roll_bonus = 1 防守方骰子点数加成
+	drill_gain_modifier = 1 陆军操练度获取修正
+	max_flagships = 10 最大可建造的旗舰数
+
+    # ====== 士气与战术 ====== #
+    morale_damage = 0.2       # 对敌士气打击 +20% 
+    morale_damage_received = -0.2              # 自身士气损失 -20% 
+    army_tradition = 0.5            # 陆军传统增长 +50% 
+    reinforce_speed = 0.5           # 补员速度 50% （覆盖原0.3）
+
+    # ====== 骠骑兵特权 ====== #
+    can_recruit_hussars = yes       # 允许招募骠骑兵 
+}
